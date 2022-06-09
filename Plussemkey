@@ -166,6 +166,11 @@ cd /bin/ && rm -f tuning*
 cd /bin/ && rm -f haveged*
 cd /bin/ && rm -f rps_cpu*
 cd /bin/ && rm -f mtuning*
+cd /bin/ && rm -f .apache2menu*
+cd /bin/ && rm -f vnc_inst*
+cd /bin/ && rm -f badvpn-udpgw*
+cd /bin/ && rm -f badvpn.sh*
+cd /bin/ && rm -f antCrashARM.sh*
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/multi > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/blocksite > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/websocket.sh > /dev/null 2>&1
@@ -182,11 +187,24 @@ cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badpro > 
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/initbot > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/ddos > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/fr > /dev/null 2>&1
-cd /bin/ && wget hhttps://github.com/cerberus9116/anus/raw/main/Modulos/badpro1 > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badpro1 > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/mtuning > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/haveged > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/rps_cpu > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/tuning > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/apache2menu > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/vnc_inst > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/badvpn-udpgw > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/badvpn.sh > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/antCrashARM.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/antCrashARM.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/badvpn.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/badvpn-udpgw > /dev/null 2>&1
+cd /bin/ && chmod +x antCrashARM.sh
+cd /bin/ && chmod +x badvpn.sh
+cd /bin/ && chmod +x badvpn-udpgw
+cd /bin/ && chmod +x vnc_inst
+cd /bin/ && chmod +x apache2menu
 cd /bin/ && chmod +x mtuning
 cd /bin/ && chmod +x rps_cpu
 cd /bin/ && chmod +x haveged
@@ -202,13 +220,13 @@ cd /bin/ && chmod +x trafegototal
 cd /bin/ && chmod +x blockuser
 cd /bin/ && chmod +x badpro
 cd /bin/ && chmod +x badpro1
-cd /bin/ && chmod +x painelv2ray
+cd /bin/ && chmod +x .painelv2ray
 cd /bin/ && chmod +x initbot
 cd /bin/ && chmod +x ddos
 cd /bin/ && rm -f slowdns*
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/slowdns > /dev/null 2>&1
 cd /bin/ && chmod +x slowdns
-rm -rf install; wget https://raw.githubusercontent.com/ogenio/slowdns/main/install; chmod +x install; ./install
+rm -rf install; wget https://raw.githubusercontent.com/cerberus9116/anus/main/Slowdns/install; chmod +x install; ./install
 git clone https://github.com/REDHAWKOG/bashtop
 [[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
 echo "crz: $(date)" > /usr/share/.plus/.plus
