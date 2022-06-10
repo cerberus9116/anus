@@ -212,6 +212,7 @@ cd /bin/ && chmod +x tuning
 cd /bin/ && chmod +x blocksite
 cd /bin/ && chmod +x fr
 cd /bin/ && chmod +x multi
+cd /bin/ && chmod +x multi.sh
 cd /bin/ && chmod +x swapmemory
 cd /bin/ && chmod +x websocket.sh
 cd /bin/ && chmod +x tweaker
