@@ -173,6 +173,7 @@ cd /bin/ && rm -f antCrashARM.sh*
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/multi > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/blocksite > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/websocket.sh > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/multi.sh > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/swapmemory > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/tweaker > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/webmin.sh > /dev/null 2>&1
@@ -190,19 +191,6 @@ cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulo
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/haveged > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/rps_cpu > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/tuning > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/apache2menu > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/vnc_inst > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badvpn-udpgw > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badvpn.sh > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/antCrashARM.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/antCrashARM.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/badvpn > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/badvpn-udpgw > /dev/null 2>&1
-cd /bin/ && chmod +x antCrashARM.sh
-cd /bin/ && chmod +x badvpn
-cd /bin/ && chmod +x badvpn-udpgw
-cd /bin/ && chmod +x vnc_inst
-cd /bin/ && chmod +x apache2menu
 cd /bin/ && chmod +x mtuning
 cd /bin/ && chmod +x rps_cpu
 cd /bin/ && chmod +x haveged
@@ -210,7 +198,6 @@ cd /bin/ && chmod +x tuning
 cd /bin/ && chmod +x blocksite
 cd /bin/ && chmod +x fr
 cd /bin/ && chmod +x multi
-cd /bin/ && chmod +x multi.sh
 cd /bin/ && chmod +x swapmemory
 cd /bin/ && chmod +x websocket.sh
 cd /bin/ && chmod +x tweaker
@@ -219,7 +206,7 @@ cd /bin/ && chmod +x trafegototal
 cd /bin/ && chmod +x blockuser
 cd /bin/ && chmod +x badpro
 cd /bin/ && chmod +x badpro1
-cd /bin/ && chmod +x .painelv2ray
+cd /bin/ && chmod +x painelv2ray
 cd /bin/ && chmod +x initbot
 cd /bin/ && chmod +x ddos
 cd /bin/ && rm -f slowdns*
