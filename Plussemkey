@@ -196,10 +196,10 @@ cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badvpn-ud
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badvpn.sh > /dev/null 2>&1
 cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/antCrashARM.sh > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/antCrashARM.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/badvpn.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/badvpn > /dev/null 2>&1
 cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/badvpn-udpgw > /dev/null 2>&1
 cd /bin/ && chmod +x antCrashARM.sh
-cd /bin/ && chmod +x badvpn.sh
+cd /bin/ && chmod +x badvpn
 cd /bin/ && chmod +x badvpn-udpgw
 cd /bin/ && chmod +x vnc_inst
 cd /bin/ && chmod +x apache2menu
