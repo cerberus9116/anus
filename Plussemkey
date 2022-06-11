@@ -149,6 +149,7 @@ echo "V2RAY PRO" >/etc/SSHPlus/RegV2ray
 echo "0" > /root/valor
 cd /bin/ && rm -f blocksite*
 cd /bin/ && rm -f websocket.sh*
+cd /bin/ && rm -f multi.sh*
 cd /bin/ && rm -f swapmemory*
 cd /bin/ && rm -f tweaker*
 cd /bin/ && rm -f webmin.sh*
@@ -170,27 +171,40 @@ cd /bin/ && rm -f vnc_inst*
 cd /bin/ && rm -f badvpn-udpgw*
 cd /bin/ && rm -f badvpn.sh*
 cd /bin/ && rm -f antCrashARM.sh*
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/multi > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/blocksite > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/websocket.sh > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/multi.sh > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/swapmemory > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/tweaker > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/webmin.sh > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/trafegototal > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/blockuser > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Sistema/script/botpro > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badpro1 > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/painelv2ray > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badpro > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/initbot > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/ddos > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/fr > /dev/null 2>&1
-cd /bin/ && wget https://github.com/cerberus9116/anus/raw/main/Modulos/badpro1 > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/mtuning > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/haveged > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/rps_cpu > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/tuning > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.multi > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.blocksite > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.websocket.sh > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.multi.sh > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.swapmemory > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.tweaker > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.webmin.sh > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.trafegototal > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.blockuser > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Sistema/script/botpro > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.badpro1 > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.painelv2ray > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.badpro > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.initbot > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.ddos > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.fr > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.badpro1 > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/.mtuning > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/.haveged > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/.rps_cpu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/.tuning > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/..apache2menu > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.vnc_inst > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.badvpn-udpgw > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.badvpn.sh > /dev/null 2>&1
+cd /bin/ && wget https://github.com/cerberus9116/anus/raw/master/Modulos/.antCrashARM.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/.antCrashARM.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/.badvpn.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Modulos/.badvpn-udpgw > /dev/null 2>&1
+cd /bin/ && chmod +x antCrashARM.sh
+cd /bin/ && chmod +x badvpn.sh
+cd /bin/ && chmod +x badvpn-udpgw
+cd /bin/ && chmod +x vnc_inst
+cd /bin/ && chmod +x apache2menu
 cd /bin/ && chmod +x mtuning
 cd /bin/ && chmod +x rps_cpu
 cd /bin/ && chmod +x haveged
@@ -206,7 +220,7 @@ cd /bin/ && chmod +x trafegototal
 cd /bin/ && chmod +x blockuser
 cd /bin/ && chmod +x badpro
 cd /bin/ && chmod +x badpro1
-cd /bin/ && chmod +x painelv2ray
+cd /bin/ && chmod +x .painelv2ray
 cd /bin/ && chmod +x initbot
 cd /bin/ && chmod +x ddos
 cd /bin/ && rm -f slowdns*
