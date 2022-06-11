@@ -5,6 +5,6 @@ apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/cerber
 SEGUNDO INSTALADOR
 
 
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/cerberus9116/anus/main/Plus && chmod 777 * Plus && ./Plus
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/cerberus9116/anus/main/mztp && chmod 777 * Plus && ./mztp
 
 
